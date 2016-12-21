@@ -1,7 +1,8 @@
 # Run Hadoop Cluster and Hive within Docker Containers
 ## 项目介绍：
 在下述基础上添加了hive
-https:github.com_kiwenlau_hadoop-cluster-docker
+
+[基于Docker搭建Hadoop集群之升级版](http://kiwenlau.com/2016/06/12/160612-hadoop-cluster-docker-update/)
 
 
 ![](https://raw.githubusercontent.com/kiwenlau/hadoop-cluster-docker/master/hadoop-cluster-docker.png)
