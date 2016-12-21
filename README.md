@@ -1,6 +1,6 @@
 # Run Hadoop Cluster and Hive within Docker Containers
 ## 项目介绍：
-在下述基础上添加了hive
+在下述基础上添加了hive，使用默认的derby
 
 [基于Docker搭建Hadoop集群之升级版](http://kiwenlau.com/2016/06/12/160612-hadoop-cluster-docker-update/)
 
@@ -30,14 +30,14 @@ start hadoop-slave2 container...
 root@hadoop-master:~#
 ```
 
-		* 启动了3个容器，1个master, 2个slave
-		* 运行后就进入了hadoop-master容器的/root目录
+* 启动了3个容器, 1个master, 2个slave
+* 运行后就进入了hadoop-master容器的/root目录, 以下操作均在容器中进行
    
 ### 4. 启动hadoop
-`./start-hadoop.sh`
+`root@hadoop-master:~#./start-hadoop.sh`
 
 ### 5. 验证hadoop：运行wordcount
-`./run-wordcount.sh`
+`root@hadoop-master:~#./run-wordcount.sh`
 
 ### 6. 运行hive，并验证
 ```
